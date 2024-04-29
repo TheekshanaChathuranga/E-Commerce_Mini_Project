@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = 'https://send.pageclip.co/N7TLhhLTczusaXf9cAZpLdUfU1Oevc7o';
     }
     $.ajax({
       type: "POST",
